@@ -1,0 +1,3 @@
+aws_region   = "eu-west-1"
+state_bucket = "jb-tfstate-example"
+lock_table   = "jb-tf-locks"

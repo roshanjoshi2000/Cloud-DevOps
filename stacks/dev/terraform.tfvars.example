@@ -1,0 +1,14 @@
+aws_region = "eu-west-1"
+jb_env     = "dev"
+billed_to  = "roshan"
+
+# Cost knobs I would actually flip in Dev
+create_nat             = true
+park_api               = false
+api_task_count         = 1
+give_tasks_public_ip   = false
+mysql_class            = "db.t4g.micro"
+
+# Placeholders until real account bits exist
+acm_cert_arn  = "arn:aws:acm:eu-west-1:000000000000:certificate/00000000-0000-0000-0000-000000000000"
+api_image_uri = "000000000000.dkr.ecr.eu-west-1.amazonaws.com/jobbser-api:dev-placeholder"

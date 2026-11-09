@@ -1,0 +1,5 @@
+bucket         = "jb-tfstate-example"
+key            = "stacks/check/terraform.tfstate"
+region         = "eu-west-1"
+dynamodb_table = "jb-tf-locks"
+encrypt        = true

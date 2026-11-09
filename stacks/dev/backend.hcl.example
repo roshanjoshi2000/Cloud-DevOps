@@ -1,0 +1,6 @@
+# Example backend config for stacks/dev. Local backend.hcl is gitignored.
+bucket         = "jb-tfstate-example"
+key            = "stacks/dev/terraform.tfstate"
+region         = "eu-west-1"
+dynamodb_table = "jb-tf-locks"
+encrypt        = true
