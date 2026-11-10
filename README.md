@@ -2,7 +2,7 @@
 
 **Name:** Roshan Joshi  
 **Task:** 2  
-**Time spent:*1 days
+**Time spent:*1 day
 
 Design files only. No live AWS account, no real secrets, no apply against Jobbser.
 
